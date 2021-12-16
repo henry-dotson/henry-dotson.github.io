@@ -1,0 +1,54 @@
+
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css"/>
+    <script type="module">import * as vanilla_spice from './__target__/vanilla_spice.js';window.vanilla_spice = vanilla_spice;</script>
+    <style>
+        page {
+            margin: 0 auto;
+            display: block;
+            text-align: center;
+        }
+
+        #read {
+          height: 100px;
+        }
+    </style>
+  </head>
+  <body>
+      <page>
+    <header>
+      <h1>Spice RPG:</h1>
+      <h2>The Game</h2>
+    </header>
+    <section>
+        <article>
+            <img src="assets/largegb.png">
+        <article id="read">
+            <p id="desc">Enter the dungeon...<br>
+            Explore the rooms...<br>
+            Will you fail or succeed? The choice is yours.</p>
+        </article>
+    </section>
+    <hr>
+    <section>
+        <article>
+    <button onclick="vanilla_spice.play.intro_room()"> Start The Game</button>
+</article>
+<br>
+</section>
+<section>
+    <button onclick="vanilla_spice.play.combat_room()"> Combat Room</button>
+    <button onclick="vanilla_spice.play.social_room()"> Social Room</button>
+    <button onclick="vanilla_spice.play.explore_room()"> Explore Room</button>
+    <button onclick="vanilla_spice.play.treasure_room()"> Treasure Room</button>
+    <button onclick="vanilla_spice.play.boss_room()"> Boss Room</button>
+    <button onclick="vanilla_spice.play.finale()"> End Game</button>
+</section>
+<section>
+    <br>
+<br>
+</section>
+</page>
+  </body>
+</html>
