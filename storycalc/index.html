@@ -1,0 +1,122 @@
+
+<html>
+  <head>
+    <link rel="stylesheet" href="main.css"/>
+  </head>
+  <header>
+    <article class="left33">
+      <h1 class="header"><a href="http://storycalc.com">Story Architecture (StoryCalc) Calculator</a></h1>
+    </article>
+    <article class="right">
+      <div id="sharevia" class="share">
+        <div class="fb"></div>
+        <div class="twitter"></div>
+        <div class="instagram"></div>
+        <div class="linkedin"></div>
+      </div>
+    </article>
+  </header>
+  <body>
+    <page>
+      <aside>
+        <section id="inputs"></section>
+        <h2>Story Elements</h2><form oninput="pixarresults.value=`Once upon a time, there was one ${protagonist.value} named ${name.value}. Every day, ${name.value} ${daily_routine.value}. Until one day, ${inciting_incident.value}. Because of that, ${conflict_1.value}. Because of that, ${conflict_2.value}. Until finally, ${name.value} the ${protagonist.value} is able to ${goal.value}.`" onkeyup="heroresults.value=`${name.value} the ${protagonist.value} every day ${daily_routine.value}. All of a sudden, ${inciting_incident.value}, and ${name.value} is given the goal to ${goal.value}. But the ${protagonist.value} is reluctant, until meeting ${impact_character.value}, who gives them some advice and readies them for the journey ahead. ${name.value} stops their daily routine and chooses to try to ${goal.value}. During this time, ${name.value} meets allies, encounters challenges of their abilities, and faces off with ${enemies.value}. Things are going well until ${conflict_1.value}, forcing ${name.value} to try a new approach to ${goal.value}. This new approach works until ${conflict_2.value}, which lands ${name.value} in a life or death crisis. In order to survive, ${name.value} must face their ${weakness.value}. ${name.value} overcomes their ${weakness.value} in the moment, acts heroically, and is able to succeed and ${goal.value}. ${name.value} attempts to return to regular ${protagonist.value} life, but finds transitioning back difficult. ${name.value} faces one last test that proves even more deadly than the mission to ${goal.value}, and must now master their ${weakness.value} in order to get the ${physical_reward.value} which will finally end the conflict. ${name.value} can now fully return to regular life where ${name.value} ${daily_routine.value}, but with the ${physical_reward.value} and lessons from the journey, which makes life better for themselves and their community.`" onmousemove="savethecatresults.value=`The story opens with an image representing the idea '${theme_phrase.value}'. Soon after, a character in the story tells one ${protagonist.value}, ${name.value}, directly that  '${theme_phrase.value}.' We see ${name.value}'s everyday ${home.value} life. We see ${name.value}'s everyday ${work.value} life. We see ${name.value}'s everyday ${hobby.value} hobby. We also see that ${name.value}'s ${weakness.value} makes life unsustainable: something has to change. When ${inciting_incident.value}, ${name.value} learns they must leave the ${protagonist.value}'s life to go ${goal.value}. But ${name.value} doesn't want to go. At their ${home.value}, they debate with family. They also debate their colleagues at ${work.value}, or their ${hobby.value} friends. After all is considered, ${name.value} decides they *must* try to ${goal.value}. ${name.value} voluntarily leaves their ${protagonist.value}'s life to embark on the journey. ${name.value} meets and develops a relationship with ${impact_character.value}, as well as allies that want to see ${name.value} ${goal.value}. They help ${name.value} start training to ${goal.value}. The relationship between ${name.value} and ${impact_character.value} grows, and ${name.value} levels up in training. The relationship between ${name.value} and ${impact_character.value} reaches its peak, and ${name.value} seems to have mastered the skills needed to ${goal.value}. So ${name.value} attempts to ${goal.value} and it seems like they succeed, obtaining the ${physical_reward.value}. But then the ${enemies.value} start to close in. At the same time, ${name.value} is confronted with the ${weakness.value} and begins to self-doubt. The ${enemies.value} get even closer, and ${name.value} self-doubts even more. Finally, the big bad ${big_bad.value} shows up, and ${name.value} can't defeat them. So ${impact_character.value} is killed/captured, and ${name.value} loses the ${physical_reward.value}. All being lost, ${name.value} experiences a dark night of the soul, and internally debates whether this whole thing was a mistake. In the depths of despair, ${name.value} finally accepts reality, and in so doing, has a moment of realization: '${theme_phrase.value}'. Armed with this knowledge, ${name.value} is re-energized to try to ${goal.value}. ${name.value} makes a plan, combining natural ${protagonist.value} abilities, old ${hobby.value} skills, new training, and the idea that '${theme_phrase.value}', in order to rescue/avenge ${impact_character.value}, get the ${physical_reward.value} back *and* ${goal.value}. ${name.value} gathers allies, tools and weapons needed to take on the ${enemies.value} and beat the ${big_bad.value}. ${name.value} and allies enter into the arena where the showdown will occur, with the odds stacked against them. However, their plan works and they beat the ${enemies.value}! But when they get to rescuing ${impact_character.value} (or the ${physical_reward.value}), it is not there; the ${big_bad.value} knew they were coming, and a traitor on the team is revealed. With no plan, ${name.value} has to let go of control, which requires ${name.value} to overcome their ${weakness.value} to continue on. ${name.value} overcomes the ${weakness.value}, which allows them to rescue/avenge ${impact_character.value}, defeat the big bad ${big_bad.value}, and get the ${physical_reward.value}. The story ends with an image representing the changed world after they ${goal.value}.`">
+        <h5>Enter A Word...</h5>
+        <p>Name: <input type="textbox" id="name" placeholder="John, Jacob, Jenkleheimersmith"></p>
+        <p>Profession: <input type="textbox" id="protagonist" placeholder="student, artist, pokemon master"></p>
+        <p>Home: <input type="textbox" id="home" placeholder="apartment, villa, mansion"></p>
+        <p>Hobby: <input type="textbox" id="hobby" placeholder="astronomy, ballet, instagram"></p>
+        <h5>Enter A Phrase...</h5>
+        <p>Work: <input type="textbox" id="work" placeholder="Ridgemont High, The Precinct"></p>
+        <p>Weakness: <input type="textbox" id="weakness" placeholder="fear of snakes, random outbursts"></p>
+        <p>Goal: <input type="textbox" id="goal" placeholder="defeat the space aliens, win 1st in the talent show"></p>
+        <p>Reward: <input type="textbox" id="physical_reward" placeholder="rod of protection, mask of invisibility"></p>
+        <p>Key Character: <input type="textbox" id="impact_character" placeholder="mysterious stranger, old man who fought of aliens years ago"></p>
+        <p>Enemies: <input type="textbox" id="enemies" placeholder="space pirates, ghost ninjas, ghost-alien pirate-ninjas"></p>
+        <p>Big Bad: <input type="textbox" id="big_bad" placeholder="space demon, the Boss, Patrick Swayze"></p>
+        <p>Theme Phrase: <input type="textbox" id="theme_phrase" placeholder="all you need is love, keep on truckin"></p>
+        <h5>Enter A Sentence...</h5>
+        <p>Daily Routine: <input type="textbox" id="daily_routine" placeholder="wakes up, goes to school, and ponders the night sky"></p>
+        <p>Inciting Incident: <input type="textbox" id="inciting_incident" placeholder="a portal opens above the earth"></p>
+        <p>1st Major Conflict: <input type="textbox" id="conflict_1" placeholder="his family is being held hostage"></p>
+        <p>2nd Major Conflict: <input type="textbox" id="conflict_2" placeholder="the government doesn't want his help"></p>
+      </aside>
+      <main>
+        <section id="intro">
+          <article id="whatthissiteisabout">
+            <p>Storycalc produces common story architectures for your unique story, given basic information about your main character, their struggles, and the goal they are trying to accomplish. Before we calculate your story, it may be helpful to address the elephant in the room: <em>"What is story architecture?"</em> The following sections cover the basics.</p>
+          </article>
+          <article id="storyarchitecture">
+            <h2>Story Architecture</h2>
+            <p>Story architecture, also known as the story arc or plot arc, is a combination of story elements (protagonist, antagonist, inciting incident, etc.) presented in consistent places and times within a narrative. Story architectures typically follow a 3-Act structure, although some expand that to 4 or 5 Acts. However, all story architectures generally follow the same formula:</p>
+            <ol>
+              <li>Introduce a main character that wants something</li>
+              <li>Present obstacles to the main character obtaining that thing</li>
+              <li>Main character either fails or fulfills their want</li>
+            </ol>
+            <p>Every story has a beginning (one), a middle (two), and an end (three). Different Act structures can be used to expand the middle, or to determine which aspects of the story are presented to the audience.</p>
+          </article>
+          <article id="commonarchitectures">
+            <h2>Common Architectures</h2>
+            <p>Every storytelling medium has standard architectures used by practiced storytellers. For thousands of years, oral stories followed folktale, fable, and epic architectures. But with the developments of novels, live action film, and animation, three storytelling architectures have come to dominate the storytelling landscape. These are the Pixar Formula for animation, the Hero’s Journey for literature, and Save The Cat! (also known as the Hollywood Formula) for live action film.</p>
+          </article>
+        </section>
+        <section id="calculatoroverview">
+          <article id="thepixarformula">
+            <details class="greencolor">
+              <summary class="h3">The Pixar Formula</summary>
+              <p>Pixar creates stories with real characters, transcendent emotional experiences, and heartfelt moments. These animated stories are made for kids, but warm the hearts of adults as well. Storycalc uses the basic 6-step Pixar story formula<sup><a href="#fn1" id="ref1">1</a></sup>.</p>
+            </details>
+          </article>
+          <article id="theherosjourney">
+            <details class="yellowcolor">
+              <summary class="h3">The Hero's Journey</summary>
+              <p>The Hero's Journey can be found everywhere from epic stories like Lord of The Rings and Star Wars to mundane stories about a common roadtrip. This ancient architecture is used in multiple mediums and has stood the test of time. Storycalc uses Christopher Vogler's 12-step simplification of the hero's journey<sup><a href="#fn1" id="ref1">2</a></sup>.</p>
+            </details>
+          </article>
+          <article id="savethecat">
+            <details class="purplecolor">
+              <summary class="h3">Save The Cat!</summary>
+              <p>Save The Cat!, also known as The Hollywood Formula, was created to maximize emotional impact. This live-action film architecture sees theme, plot, and character converge in one powerful, cathartic moment. Storycalc uses Blake Snyder’s Save The Cat! beat sheet<sup><a href="#fn1" id="ref1">3</a></sup>.</p>
+            </details>
+          </article>
+        </section>
+        <section id="results">
+          <h2>Your Stories</h2>
+          <p><em>Fill out the "Story Elements" Form and then click below to see your story elements in each of the major story architectures.</em></p>
+          <article class="pixar story">
+            <details>
+              <summary>View Your Pixar Story</summary><br><output name="pixarresults"></output><hr>
+            </details>
+          </article>
+          <article class="hj story">
+            <details>
+              <summary>View Your Hero's Journey Story</summary><br><output name="heroresults"></output><hr>
+            </details>
+          </article>
+          <article class="cat story">
+            <details>
+              <summary>View Your Save The Cat! Story</summary><br><output name="savethecatresults"></output><hr></form>
+            </details>
+          </article>
+        </section>
+        <section id="footnotes">
+          <article>
+            <h2>References</h2>
+            <ol>
+              <li id="fn1" class="foot">The Pixar Formula: <a href="http://www.thescientistvideographer.com/wordpress/the-pixar-storytelling-formula/">http://www.thescientistvideographer.com/wordpress/the-pixar-storytelling-formula/</a></li>
+              <li id="fn2" class="foot">The Hero's Journey: <a href="https://heroinejourneys.com/christopher-voglers-heros-journey-arc/">https://heroinejourneys.com/christopher-voglers-heros-journey-arc/</a></li>
+              <li id="fn3" class="foot">Save The Cat!: <a href="https://savethecat.com/get-started#1565365814194-e72fe034-d83c">https://savethecat.com/get-started#1565365814194-e72fe034-d83c</a></li>
+            </ol>
+          </article>
+        </section>
+      </main>
+      <div class="right"></div>
+    </page>
+  </body>
+  <footer>
+    <article class="left33">
+      <p>© 2021 StoryCalc. All rights reserved.</p>
+    </article>
+  </footer>
+</html>

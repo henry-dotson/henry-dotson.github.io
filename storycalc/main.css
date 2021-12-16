@@ -1,0 +1,158 @@
+/* Root */
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap');
+
+* {
+font-family: "Crimson Pro", serif;
+font-weight: normal;
+box-sizing: border-box;
+}
+
+:root {
+--shade: #CCCCCC;
+--green:#D1F4EE;
+--purple: #F2C5EA;
+--yellow: #FFE97C;
+--link: #9E3B79;
+}
+
+/* Semantic */
+
+h1, .h1 {
+font-size: 2em;
+text-transform: uppercase;
+margin-top: 1em;
+margin-bottom: 1em;
+}
+
+h2, .h2 {
+font-size: 1.6em;
+}
+
+h3, .h3 {
+font-size: 1.3em;
+line-height: 1.615em;
+}
+
+h4, .h4 {
+font-size: 1.3em;
+line-height: 1.615em;
+font-weight: bold;
+}
+
+h5, .h5 {
+font-size: 1em;
+font-weight: bold;
+}
+
+
+p, .p {
+    display: block;
+/*    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: .75em;
+    */
+    line-height: 1.618em;
+}
+
+body {
+font-size: 18px;
+margin: 0;
+padding: 0;
+}
+
+.foot {
+font-size: .75em;
+}
+
+page {
+display: flex;
+}
+
+aside {
+background-color: #E5E5E5;
+flex: 1;
+border-right: 1px solid var(--shade);
+padding: 2%;
+margin: 0 auto;
+}
+
+main {
+flex: 2.5;
+padding: 2%;
+margin: 0 auto;
+}
+
+.right {
+flex: 2;
+margin: 0 auto;
+}
+
+
+header {
+border-bottom: 1px solid var(--shade);
+text-align: Left;
+display: block;
+padding-left: 2%;
+width: 100%;
+}
+
+footer {
+width: 100%;
+display: flex;
+justify-content: center;
+margin: 0 auto;
+border-top: 1px solid var(--shade);
+background: var(--shade);
+}
+
+textarea {
+outline: none;
+resize: none;
+border-radius: 5px;
+border: 1px solid var(--shade);
+margin-bottom: -4px;
+}
+
+input[type='checkbox'] {
+visibility: invisible;
+}
+
+details {
+padding-left: 2%;
+padding-right: 2%;
+}
+
+/* Style checkbox: https://css-tricks.com/snippets/css/custom-checkboxes-and-radio-buttons/ */
+
+
+/* Classes */
+
+.greencolor {
+background: var(--green);
+}
+
+.yellowcolor {
+background: var(--yellow);
+}
+
+.purplecolor {
+background: var(--purple);
+}
+
+a {
+color: var(--link);
+text-decoration: none;
+}
+
+.answer {
+width: 100%;
+}
+
+.break:before {
+    content:'\A';
+    white-space:pre;
+}
+
+/* IDs */
