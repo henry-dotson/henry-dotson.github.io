@@ -175,13 +175,13 @@ const workoutData = {
         "name": "Walk",
         "desc": "Life Walk",
         "time": 5,
-        "instr": "Pick a random pose. Ambulate it for one minute."
+        "instr": "Below is a random pose. Ambulate in it for one minute. Then take a one minute rest. Repeat for 5 rounds."
     },
     "walkrounds": {
         "name": "Rounds",
         "desc": "Life Walk",
-        "time": 10,
-        "instr": "Pick 3 random poses. Alternate between all 3 doing each for 1 minute for 3 rounds."
+        "time": 12,
+        "instr": "Below are 3 random poses. Ambulate in pose #1 for one minute, then pose #2 for 1 minute, then pose #3 for one minute, then take a one minute rest. Repeat for 3 rounds."
     },
     "posepatterns": {
         "name": "Pose Pattern",

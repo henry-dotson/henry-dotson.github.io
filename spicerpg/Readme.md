@@ -1,0 +1,1 @@
+Empower your Spice game with an automated DM. SpiceRPG (https://spicerpg.ck.page/) is a Table Top RPG that you can play with a deck of cards. Get a digital gameboard to match your physical game. Use the room generator to generate the prompt for each room. Run SpiceRPG so that everyone gets to be a player.
